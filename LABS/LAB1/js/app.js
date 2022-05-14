@@ -1,10 +1,13 @@
 function setup(){
+    var red= "#C4A4BB"
+    var startX= "200" 
+
 createCanvas(800, 600)
 
 
 //teeth
-fill(35);
-rect(90, 200, 300, 100);
+fill(red);
+rect(90, startX, 300, 100);
 
 //Nose
 line(90, 160, 65, 160); // straight line (for A)
@@ -12,15 +15,15 @@ line(200, 180, 210, 160)
 line(200, 180, 210, 180)
 //outer eyes
 fill(255, 204, 0)
-circle(200, 100, 60);
+circle(startX, 100, 60);
 fill(255, 204, 0)
 circle(300, 100, 60);
 
 //inner eyes
-stroke(200, 200, 200,)
+stroke(startX, startX, startX,)
 strokeWeight(5)
 fill(255, 100, 0)
-circle(200, 100, 15);
+circle(startX, 100, 15);
 fill(255, 100, 0)
 circle(310, 100, 15);
 
