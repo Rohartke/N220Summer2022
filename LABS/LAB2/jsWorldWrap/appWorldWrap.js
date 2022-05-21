@@ -17,14 +17,13 @@ function draw() {
    xPos+= xSpeed   
    xNeg--;
    noStroke()
-   circle(xNeg,200,30); // circle, moving
+ 
+   console.log (xPos)
+  
+   if (xPos> 800) {
+      fill(0, 0, 0);
    
-   
-   if (xPos > 200) {
-      fill(255, 255, 255)
-   }
-   if (xPos > 600){
-      noFill()
+      xPos=0
    }
   
   
